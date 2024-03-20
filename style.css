@@ -1,0 +1,199 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar
+{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #16241a;
+    position: absolute;
+    padding-top: 0px;
+    background-color: #16241a ;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: #363818;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+
+
+.navbar ul
+{
+    overflow: auto;
+}
+.navbar li
+{
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    list-style: none;
+    padding: 7px 5px9
+}
+.navbar li a
+{
+    padding: 2px;
+    text-decoration: none;
+    text-decoration: double;
+    color:whitesmoke;
+    padding-left: 10px;
+    float: inline-start;
+    text-align: center;
+    
+     
+}
+.navbar li  :hover
+{
+    text-decoration: dotted;
+    transition: 1s;
+    
+}
+ #logo
+{
+    height: 110px;
+    width: 100px;
+    float: left;
+    border-radius: 100%; 
+}
+
+
+.box
+{
+    border: 2px solid white;
+    margin-right: 30%;
+}
+.names
+{
+    border: 0px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.HEAD1
+{
+   
+    color: aliceblue;
+    font-size: 35PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.n1
+{
+    height: 250px;
+    width: 430px; 
+    border-radius: 0px; 
+}
+
+.box6
+{
+    border: 2px solid white;
+    margin-top: 200px;
+}
+form
+{
+   
+    
+    
+    width: 400px;
+    height: 450px;
+    margin-left: 100px;
+    
+}
+label,input
+{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow:  3px;
+    
+    
+}
+
+
+button
+{
+    color: whitesmoke;
+    padding: 10px;
+    background-color: green;
+}
+h1{
+    height: 44px;
+    
+    width: 613px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: xx-large;
+    
+    padding: 20px;
+    margin-left: 250px;
+}
+
+h1,p{
+    color:(255, 255, 255) ;
+
+}
+textarea
+{
+    border-radius: 10px;
+    width: 100%;
+}
+.about h3{
+    color: white;
+    font-size: x-large;
+    margin-top: 20px;
+    padding-left: 30%;
+    
+}
+.about1
+{
+    height: 500%;
+}
+.about1 p
+{
+    color: aliceblue;
+    word-spacing: 18px;
+    margin-left: 81px;
+    height: 150px;
+    width: 75%;
+    font-size: x-large;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: -91px;
+    padding-bottom: 300px;
+
+
+}
+
+.about2
+{
+    background-color: #ccc8c8;
+    padding-bottom: 20px;
+    
+
+    
+}
+.about2 h1
+{
+    height: 40px;
+}
+
+.about2 h3
+{
+    text-align: center;
+    margin-bottom: 100px ;
+
+}
+

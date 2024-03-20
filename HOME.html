@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body
+        {
+            
+            width: 100%;
+            place-items:  center;
+            margin-left: 0px;
+            
+        }
+        .slide-container
+        {
+            height: 300%;
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            scroll-snap-type: x mandatory;
+
+        }
+        .slide-container .slide
+        {
+            scroll-snap-align: start;
+
+        }
+        .slide-container img
+        {
+            width: 800px;
+            height: 100%;
+            object-fit: cover;
+            
+            
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="project1.html"><img id="logo" src="bala.jpg" alt=""></a>
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="ABOUT_US.html">ABOUT_US</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="CONTACT_US.html">CONTACT_US</a></li>
+                
+            </ul>
+            <h1>Welcome to Shri Balaji Tent House & Events</h1>
+            <br><br>
+            <div class="slide-container">
+                <div  class="slide">
+                    
+                    <img  style="height: 300px; border: solid 2px black;" src="wedding20.png" alt="" class="pic"></div>
+                <div class="slide"><img style="height: 300px ; width: 550px;  border: solid 2px black; " src="stage1.jpg" alt="" class="pic"></div>
+                <div class="slide"><img style="height: 300px; width: 550px;  border: solid 2px black;" src="sadi pandal.jpg" alt="" class="pic"></div>
+                <div class="slide"> <img style="height: 300px; width: 550px;  border: solid 2px black;" src="stage.jpeg" alt="" class="pic"></div>
+                <div class="slide"> <img style="height: 300px; width: 550px;  border: solid 2px black;" src="wedding10.jpeg" alt="" class="pic"></div>
+                <div class="slide"> <img style="height: 300px; width: 550px;  border: solid 2px black;" src="wedding14.jpg" alt="" class="pic"></div>
+                <div class="slide"> <img style="height: 300px; width: 550px;  border: solid 2px black;" src="wedding15.jpg" alt="" class="pic"></div>
+                <div class="slide"> <img style="height: 300px; width: 550px;  border: solid 2px black;" src="stage.jpeg" alt="" class="pic"></div>
+                </div>
+               
+                
+        
+    </header>
+</body>
+</html>
